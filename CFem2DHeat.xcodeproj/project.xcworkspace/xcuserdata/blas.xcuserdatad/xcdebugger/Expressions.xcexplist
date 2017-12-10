@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TTriangle::calculateArea():TTriangle.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "TInputParser::printConditions():TInputParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Conditions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TInputParser::parseNode():TInputParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Coordinates">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TInputParser::printConnectivities():TInputParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Connectivities">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TInputParser::readFile(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):TInputParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "amountOfConditions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "conductivity * tempDiff / nDiff.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TInputParser::parseCondition():TInputParser.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Conditions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
