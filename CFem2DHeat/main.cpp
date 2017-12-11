@@ -31,8 +31,8 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     const map<string, unsigned int> verbosity = {{"-v", 1}, {"-vv", 2}, {"-vvv", 3}};
-    string fileName = (string)argv[1] + ".dat";
-    string verbose = (string)argv[2];
+    string fileName = argv[1] ? (string)argv[1] + ".dat" : "";
+    string verbose = argv[2] ? (string)argv[2] : "";
     
     unsigned int verbosityLevel = verbosity.find(verbose) != verbosity.end()
         ? verbosity.at(verbose)
