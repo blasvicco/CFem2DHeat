@@ -1,0 +1,27 @@
+MATERIAL: Platinum
+QUESTION: k_coef._(W/m/C°)
+VALUE: 70
+QUESTION: h_coef._(W/mˆ2/C°)
+VALUE: 1
+END MATERIAL
+
+MATERIAL: Iron
+QUESTION: k_coef._(W/m/C°)
+VALUE: 71.8
+QUESTION: h_coef._(W/mˆ2/C°)
+VALUE: 1
+END MATERIAL
+
+MATERIAL: Glass
+QUESTION: k_coef._(W/m/C°)
+VALUE: 1.05
+QUESTION: h_coef._(W/mˆ2/C°)
+VALUE: 1
+END MATERIAL
+
+MATERIAL: PVC
+QUESTION: k_coef._(W/m/C°)
+VALUE: 0.19
+QUESTION: h_coef._(W/mˆ2/C°)
+VALUE: 1
+END MATERIAL
