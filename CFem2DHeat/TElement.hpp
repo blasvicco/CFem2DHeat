@@ -29,6 +29,7 @@
 
 #include <gsl/gsl_vector.h>
 #include <gsl/gsl_matrix.h>
+#include <gsl/gsl_linalg.h>
 
 struct SCondition {
     std::string type;
@@ -84,6 +85,7 @@ class TElement {
         size_t getMaterialId();
     
         virtual size_t getEdgeIndex(size_t i, size_t j) = 0;
+        virtual gsl_matrix * getKd(long double conductivity) = 0;
         virtual gsl_matrix * getKm(long double convectivity) = 0;
         virtual gsl_vector * getF() = 0;
         virtual gsl_vector * getFConvection(long double convectivity) = 0;

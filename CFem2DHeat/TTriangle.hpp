@@ -41,6 +41,7 @@ class TTriangle : public TElement {
         virtual ~TTriangle();
     
         size_t getEdgeIndex(size_t i, size_t j);
+        gsl_matrix * getKd(long double conductivity);
         gsl_matrix * getKm(long double convectivity);
         gsl_vector * getF();
         gsl_vector * getFConvection(long double convectivity);

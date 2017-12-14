@@ -21,9 +21,6 @@
 
 #include <iostream>
 
-#include <gsl/gsl_vector.h>
-#include <gsl/gsl_linalg.h>
-
 #include "TInputParser.hpp"
 #include "TSGsl.hpp"
 
@@ -111,25 +108,17 @@ int main(int argc, const char * argv[]) {
         // Getting some element properties
         long double conductivity  = materials[OElement->getMaterialId()].conductivity;
         long double convectivity  = materials[OElement->getMaterialId()].convectivity;
-        long double area          = OElement->getArea();
         
+        // Getting k element conductivity contribution
+        gsl_matrix *ke  = OElement->getKd(conductivity);
         
-        gsl_matrix *ke  = gsl_matrix_alloc(amountOfNPE, amountOfNPE);
-        gsl_matrix *B   = OElement->getB(); // Getting the strain matrix B
-        gsl_matrix *Bt  = OElement->getBt(); // Getting the transpose strain matrix B
-        
-        // We calculate the k element as alpha * (Bt * B)
-        // where alpha is conductivity / (4 * area)
-        gsl_blas_dgemm(CblasNoTrans, CblasNoTrans, conductivity / (4 * area), Bt, B, 0, ke);
-        
+        // Getting k element convection contribution if any
+        gsl_matrix *km  = OElement->getKm(convectivity);
         
         // Getting element boundary condition contributions
         gsl_vector *fe  = OElement->getF(); // f element contribution (Fix temperature if any)
         gsl_vector *fec = OElement->getFConvection(convectivity); // f element convection contribution
         gsl_vector *fef = OElement->getFFlux(convectivity); // f element flux contribution
-        
-        // Getting k element convection contribution if any
-        gsl_matrix *km  = OElement->getKm(convectivity); gsl_matrix_add(ke, km);
         
         // Printing values Ks and Fs for the element if verbosity >= 3
         if (verbosityLevel >= 3) {
@@ -144,6 +133,7 @@ int main(int argc, const char * argv[]) {
         /**
          * For each node in the element we get contribution values to assemble the global K/F
          **/
+        gsl_matrix_add(ke, km);
         vector<size_t> nodeIds = OElement->getNodeIds();
         for (size_t j = 0; j < amountOfNPE; j++) {
             size_t nodeJ = nodeIds[j] - 1;

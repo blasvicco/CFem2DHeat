@@ -26,16 +26,16 @@ using namespace std;
 ifstream TInputParser::inFile;
 size_t TInputParser::status;
 size_t TInputParser::currentFileSection;
+size_t TInputParser::amountOfMaterials;
 size_t TInputParser::amountOfConditions;
 size_t TInputParser::amountOfNodes;
 size_t TInputParser::amountOfElements;
-size_t TInputParser::amountOfMaterials;
 size_t TInputParser::factor;
 string TInputParser::unit;
+map<size_t, SMaterial> TInputParser::Materials;
 map<size_t, SCondition> TInputParser::Conditions;
 map<size_t, SNode> TInputParser::Coordinates;
 map<size_t, TElement*> TInputParser::Connectivities;
-map<size_t, SMaterial> TInputParser::Materials;
 map<string, unsigned int> TInputParser::fileSections;
 
 TInputParser::TInputParser() { }
@@ -61,10 +61,10 @@ void TInputParser::readFile(string fileName) {
             switch (currentFileSection) {
                 case TInputParser::FILE_UNIT:            parseUnit();      break;
                 case TInputParser::FILE_AMOUNTS:         parseAmounts();   break;
+                case TInputParser::FILE_MATERIALS:       parseMaterial();  break;
                 case TInputParser::FILE_CONDITIONS:      parseCondition(); break;
                 case TInputParser::FILE_COORDINATES:     parseNode();      break;
                 case TInputParser::FILE_CONNECTIVITIES:  parseElement();   break;
-                case TInputParser::FILE_MATERIALS:       parseMaterial();  break;
                 default: break;
             }
         }
@@ -97,6 +97,23 @@ void TInputParser::parseAmounts() {
     amountOfElements    = atoi(tmp[0].c_str());
     amountOfNodes       = atoi(tmp[1].c_str());
     currentFileSection  = TInputParser::FILE_NO_RELEVANT;
+}
+
+void TInputParser::parseMaterial() {
+    string line;
+    getline(inFile, line);
+    vector<string> tmp = TSString::split(line, "=");
+    amountOfMaterials = atoi(tmp[1].c_str());
+    getline(inFile, line);
+    for (size_t i = 0; i < amountOfMaterials; i++) {
+        getline(inFile, line);
+        vector<string> tmp = TSString::split(line, " ");
+        SMaterial OMaterial;
+        OMaterial.conductivity = atof(tmp[1].c_str()) / factor;
+        OMaterial.convectivity = atof(tmp[2].c_str()) / (factor * factor);
+        Materials[atoi(tmp[0].c_str())] = OMaterial;
+    }
+    currentFileSection = TInputParser::FILE_NO_RELEVANT;
 }
 
 void TInputParser::parseCondition() {
@@ -169,25 +186,12 @@ void TInputParser::parseElement() {
     currentFileSection = TInputParser::FILE_NO_RELEVANT;
 }
 
-void TInputParser::parseMaterial() {
-    string line;
-    getline(inFile, line);
-    vector<string> tmp = TSString::split(line, "=");
-    amountOfMaterials = atoi(tmp[1].c_str());
-    getline(inFile, line);
-    for (size_t i = 0; i < amountOfMaterials; i++) {
-        getline(inFile, line);
-        vector<string> tmp = TSString::split(line, " ");
-        SMaterial OMaterial;
-        OMaterial.conductivity = atof(tmp[1].c_str()) / factor;
-        OMaterial.convectivity = atof(tmp[2].c_str()) / (factor * factor);
-        Materials[atoi(tmp[0].c_str())] = OMaterial;
-    }
-    currentFileSection = TInputParser::FILE_NO_RELEVANT;
-}
-
 size_t TInputParser::getStatus() {
     return status;
+}
+
+size_t TInputParser::getAmountOfMaterials() {
+    return amountOfMaterials;
 }
 
 size_t TInputParser::getAmountOfConditions() {
@@ -202,8 +206,8 @@ size_t TInputParser::getAmountOfElements() {
     return amountOfElements;
 }
 
-size_t TInputParser::getAmountOfMaterials() {
-    return amountOfMaterials;
+map<size_t, SMaterial> TInputParser::getMaterials() {
+    return Materials;
 }
 
 map<size_t, SCondition> TInputParser::getConditions() {
@@ -218,12 +222,17 @@ map<size_t, TElement*> TInputParser::getConnectivities() {
     return Connectivities;
 }
 
-map<size_t, SMaterial> TInputParser::getMaterials() {
-    return Materials;
-}
-
 size_t TInputParser::getFactor() {
     return factor;
+}
+
+void TInputParser::printMaterials() {
+    map<size_t, SMaterial>::iterator it;
+    for (it = Materials.begin(); it != Materials.end(); it++) {
+        cout << "Material: Id " << it->first;
+        cout << " Conductivity " << it->second.conductivity;
+        cout << " Convectivity " << it->second.convectivity << endl;
+    }
 }
 
 void TInputParser::printConditions() {
@@ -250,15 +259,6 @@ void TInputParser::printConnectivities() {
         cout << "Element: Id " << it->first << " Nodes [ ";
         for (itn = it->second->nodes.begin(); itn != it->second->nodes.end(); itn++) cout << itn->first << " ";
         cout << "] Material " << it->second->getMaterialId() << endl;
-    }
-}
-
-void TInputParser::printMaterials() {
-    map<size_t, SMaterial>::iterator it;
-    for (it = Materials.begin(); it != Materials.end(); it++) {
-        cout << "Material: Id " << it->first;
-        cout << " Conductivity " << it->second.conductivity;
-        cout << " Convectivity " << it->second.convectivity << endl;
     }
 }
 

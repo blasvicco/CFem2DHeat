@@ -57,10 +57,10 @@ class TInputParser {
         static void updateCurrentFileSection(std::string line);
         static void parseUnit();
         static void parseAmounts();
+        static void parseMaterial();
         static void parseCondition();
         static void parseNode();
         static void parseElement();
-        static void parseMaterial();
     
     public:
         static const unsigned int FAIL = 0;
@@ -82,15 +82,15 @@ class TInputParser {
         static void readFile(std::string fileName);
         static size_t getStatus();
         static size_t getUnit();
+        static size_t getAmountOfMaterials();
         static size_t getAmountOfConditions();
         static size_t getAmountOfNodes();
         static size_t getAmountOfElements();
-        static size_t getAmountOfMaterials();
         static size_t getFactor();
+        static std::map<size_t, SMaterial> getMaterials();
         static std::map<size_t, SCondition> getConditions();
         static std::map<size_t, SNode> getCoordinates();
         static std::map<size_t, TElement*> getConnectivities();
-        static std::map<size_t, SMaterial> getMaterials();
     
         static void printConditions();
         static void printCoordinates();

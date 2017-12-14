@@ -96,7 +96,7 @@ void TTriangle::calculateArea() {
 
 /**
  * Getting the strain matrix B and its traspose
- * B is 2 rows and 3 cols and it came from
+ * B is 2 rows and 3 cols and it come from
  * | dN/dx |
  * | dN/dy |
  * where N is the shape function
@@ -129,6 +129,17 @@ size_t TTriangle::getEdgeIndex(size_t i, size_t j) {
     if ((i == 0) && (j == 1)) return 0;
     if ((i == 0) && (j == 2)) return 2;
     return 1;
+}
+
+/**
+ * To get the kd matrix
+ * We calculate the k element as alpha * (Bt * B)
+ * where alpha is conductivity / (4 * area)
+ **/
+gsl_matrix * TTriangle::getKd(long double conductivity) {
+    gsl_matrix *kd = gsl_matrix_alloc(3, 3); //k element convection
+    gsl_blas_dgemm(CblasNoTrans, CblasNoTrans, conductivity / (4 * area), Bt, B, 0, kd);
+    return kd;
 }
 
 /**
