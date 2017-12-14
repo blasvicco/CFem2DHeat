@@ -1,0 +1,28 @@
+NUMBER: 1 CONDITION: Point_Temperature
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+CANREPEAT: yes
+QUESTION: Temp._(C°)
+VALUE: 0
+END CONDITION
+NUMBER: 2 CONDITION: Line_Temperature
+CONDTYPE: over lines
+CONDMESHTYPE: over nodes
+CANREPEAT: yes
+QUESTION: Temp._(C°)
+VALUE: 0
+END CONDITION
+NUMBER: 3 CONDITION: Line_Flux
+CONDTYPE: over lines
+CONDMESHTYPE: over nodes
+CANREPEAT: yes
+QUESTION: Flux._(W/mˆ2)
+VALUE: 0
+END CONDITION
+NUMBER: 4 CONDITION: Line_Convection
+CONDTYPE: over lines
+CONDMESHTYPE: over nodes
+CANREPEAT: yes
+QUESTION: Amb._Temp._(C°)
+VALUE: 0
+END CONDITION

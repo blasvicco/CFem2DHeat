@@ -1,0 +1,221 @@
+Loading problem solver...
+Reading input file: /Users/blas/tmp/temp2d/test_flux.gid/test_flux.dat
+
+Problem dimension:
+Number of nodes (9)
+Number of elements (8)
+
+Condition: Node 1 Temperature 50
+Condition: Node 2 Temperature 50
+Condition: Node 5 Temperature 50
+Condition: Node 6 Flux -3.8
+Condition: Node 7 Flux -3.8
+Condition: Node 9 Flux -3.8
+Node: Id 1 Coords(0, 2)
+Node: Id 2 Coords(0, 1)
+Node: Id 3 Coords(1, 2)
+Node: Id 4 Coords(1, 1)
+Node: Id 5 Coords(0, 0)
+Node: Id 6 Coords(2, 2)
+Node: Id 7 Coords(2, 1)
+Node: Id 8 Coords(1, 0)
+Node: Id 9 Coords(2, 0)
+Element: Id 1 Nodes [ 2 5 8 ] Material 1
+Element: Id 2 Nodes [ 7 8 9 ] Material 1
+Element: Id 3 Nodes [ 3 6 7 ] Material 1
+Element: Id 4 Nodes [ 1 2 3 ] Material 1
+Element: Id 5 Nodes [ 2 4 8 ] Material 1
+Element: Id 6 Nodes [ 4 7 8 ] Material 1
+Element: Id 7 Nodes [ 3 4 7 ] Material 1
+Element: Id 8 Nodes [ 2 3 4 ] Material 1
+Material: Id 1 Conductivity 0.19 Convectivity 1
+
+Assembling matrixs...
+Processing element 1
+Element K: 
+0.09  -0.1  0.00  
+-0.1  0.19  -0.1  
+0.00  -0.1  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 2
+Element K: 
+0.09  0.00  -0.1  
+0.00  0.09  -0.1  
+-0.1  -0.1  0.19  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+-1.9  0.00  -1.9  
+
+Processing element 3
+Element K: 
+0.09  -0.1  0.00  
+-0.1  0.19  -0.1  
+0.00  -0.1  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  -1.9  -1.9  
+
+Processing element 4
+Element K: 
+0.19  -0.1  -0.1  
+-0.1  0.09  0.00  
+-0.1  0.00  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 5
+Element K: 
+0.09  -0.1  0.00  
+-0.1  0.19  -0.1  
+0.00  -0.1  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 6
+Element K: 
+0.19  -0.1  -0.1  
+-0.1  0.09  0.00  
+-0.1  0.00  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 7
+Element K: 
+0.09  -0.1  0.00  
+-0.1  0.19  -0.1  
+0.00  -0.1  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 8
+Element K: 
+0.09  0.00  -0.1  
+0.00  0.09  -0.1  
+-0.1  -0.1  0.19  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+
+Equation system matrix assembled
+K: 
+1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+-0.1  0.00  0.38  -0.2  0.00  -0.1  0.00  0.00  0.00  
+0.00  -0.2  -0.2  0.76  0.00  0.00  -0.2  -0.2  0.00  
+0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  
+0.00  0.00  -0.1  0.00  0.00  0.19  -0.1  0.00  0.00  
+0.00  0.00  0.00  -0.2  0.00  -0.1  0.38  0.00  -0.1  
+0.00  0.00  0.00  -0.2  -0.1  0.00  0.00  0.38  -0.1  
+0.00  0.00  0.00  0.00  0.00  0.00  -0.1  -0.1  0.19  
+
+F: 
+50.00  50.00  0.00  0.00  50.00  -1.9  -3.8  0.00  -1.9  
+
+Solving using linal Householder solver (gsl_linalg_HH_solve)...
+Temperature disribution: 
+50.00  50.00  30.00  30.00  50.00  10.00  10.00  30.00  10.00  
+
+Estimating Flux Heat vectors...
+Flux X: 
+3.79  3.8  3.8  3.8  3.79  3.8  3.8  3.8  3.79  
+
+Flux Y: 
+-3.8  -0.01  -0.01  -0.01  3.79  3.8  -0.01  -0.01  -3.8  
+
+Saving result: /Users/blas/tmp/temp2d/test_flux.gid/test_flux.post.res
