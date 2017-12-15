@@ -293,5 +293,5 @@ If you add the GPT folder into the GID Problem type folder for a different OS, t
 
 -. Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
 
--. Define a procedure a create a document for anyone that want to contribute to the project.
+-. Define a procedure and create a document for anyone that want to contribute to the project.
 
