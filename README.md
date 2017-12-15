@@ -283,3 +283,13 @@ The most simple but not less important section of our module is the post process
 The format of the file is determined by GID and you can read more about it [here](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_17.html)
 
 You can see an example of the output in the file [test_flux.post.res](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/bin/tests/test_flux.post.res).
+
+## Important notes
+Do not forget that the binary file in the [GPT](https://github.com/blasvicco/CFem2DHeat/tree/master/GPT/CFem2DHeat.gid) folder is compiled for OSX.
+
+If you add the GPT folder into the GID Problem type folder for a different OS, then you need to re build the module and generate the proper binary file for your OS.
+
+## TODO list
+-.[] Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
+-.[] Define a procedure a create a document for anyone that want to contribute to the project.
+
