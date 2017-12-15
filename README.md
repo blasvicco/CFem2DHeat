@@ -290,6 +290,6 @@ Do not forget that the binary file in the [GPT](https://github.com/blasvicco/CFe
 If you add the GPT folder into the GID Problem type folder for a different OS, then you need to re build the module and generate the proper binary file for your OS.
 
 ## TODO list
--.[] Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
--.[] Define a procedure a create a document for anyone that want to contribute to the project.
+-. Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
+-. Define a procedure a create a document for anyone that want to contribute to the project.
 
