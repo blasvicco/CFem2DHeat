@@ -39,9 +39,9 @@ You'll see that the code has a lot of comments but I will explain a little bit m
 
 ## The main file
 The Module is divided in three important sections:
-1.- Pre process: Parsing the input file and initialization of the global variables.
-2.- Numerical process: Assembling and resolving the system equation.
-3.- Post process: Generating the output file.
+1. Pre process: Parsing the input file and initialization of the global variables.
+2. Numerical process: Assembling and resolving the system equation.
+3. Post process: Generating the output file.
 
 These sections are clearly discernible in the [main.cpp](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/main.cpp) file.
 
@@ -75,15 +75,15 @@ The problem dimension is determined by the number of nodes and elements in the g
 
 #### Materials
 Right after the dimension section there is the materials section with a list of the materials used in the geometry. The material list will be defined as:
--. One column for the material ID
--. Another one for the conductivity (k coefficient)
--. And the last one for the convectivity (h coefficient)
+* One column for the material ID
+* Another one for the conductivity (k coefficient)
+* And the last one for the convectivity (h coefficient)
 
 #### Conditions
 There are three kind of boundary condition that this GPT accept.
--. Fixed temperature, that can be applied to nodes or lines.
--. Flux that require to be applied to lines.
--. And Convection that also require to be applied to lines.
+* Fixed temperature, that can be applied to nodes or lines.
+* Flux that require to be applied to lines.
+* And Convection that also require to be applied to lines.
 
 For this reason the conditions section is split in four sub sections, Fixed temperature in node, Fixed temperature in line, Flux in line and Convection in line. All the sub sections are processed by the same method `TInputParser::parseCondition`.
 If there are conditions overlapped in the same node then, if it is the same condition we apply the average of the values. If it not the same condition, then it will be overrode with the last one.
@@ -291,7 +291,6 @@ If you add the GPT folder into the GID Problem type folder for a different OS, t
 
 ## TODO list
 
--. Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
-
--. Define a procedure and create a document for anyone that want to contribute to the project.
+- [ ] Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
+- [ ] Define a procedure and create a document for anyone that want to contribute to the project.
 
