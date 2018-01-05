@@ -96,7 +96,7 @@ The final section is a list of nodes connectivity. Each row represent an element
 
 At this point we have all the information needed to instantiate each element as [TTriangle](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/TTriangle.hpp) objects. The [TTriangle](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/TTriangle.hpp) class extend from the abstract class [TElement](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/TElement.hpp).
 
-The reason for this abstraction is that provide a simple way to extend the GPT compatibility to support other geometry shapes. In order to do that, you need to create a new class like `TTriangle` and implement the virtual methods defined in the abstract class `TElement`. Then add an if in the method [TInputParser::parseElement](https://github.com/blasvicco/CFem2DHeat/blob/ec952ac5ee58ac4a1d3a895012566657692f1dc3/CFem2DHeat/TInputParser.cpp#L167) to instantiate your geometry shape class instead of `TElement`.
+The reason for this abstraction is that provide a simple way to extend the GPT compatibility to support other geometry shapes. In order to do that, you need to create a new class like `TTriangle` and implement the virtual methods defined in the abstract class `TElement`. Then add an `if` in the method [TInputParser::parseElement](https://github.com/blasvicco/CFem2DHeat/blob/ec952ac5ee58ac4a1d3a895012566657692f1dc3/CFem2DHeat/TInputParser.cpp#L167) to instantiate your geometry shape class instead of `TElement`.
 
 #### About the verbosity
 All the message that the Module will print are handled by the verbosity. There are three level of verbosity. I will recommend to use the level three `-vvv` for didactic purpose.
@@ -120,7 +120,7 @@ After applying the weighted residual approach using the Galerkin method for FEM,
 
 #### The algorithm
 After initialize the global vectors `F`, `A` and the matrix `K`, we go through each element in the problem to calculate the elementary vectors and the elementary matrix.
-In order to to that we begin with the reading of the element attributes:
+In order to do that we read the element attributes:
 
 ```C++
   // Getting some element properties
@@ -153,7 +153,7 @@ gsl_matrix * TTriangle::getKd(long double conductivity) {
 Where the strain matrix `B` and its transpose `Bt` are used to calculate `ke`. At this point `ke` is the matrix `kd` from our last equation, and our `Dx/y` component is determined by `conductivity / (4 * area)`.
 If you want to see how `B` and `Bt` where calculated please refer to the method `TTriangle::calculateB` [here](https://github.com/blasvicco/CFem2DHeat/blob/ec952ac5ee58ac4a1d3a895012566657692f1dc3/CFem2DHeat/TTriangle.cpp#L104).
 
-If a convective boundary condition was defined for the element we are processing then we need to obtain the `km` matrix and add its contribution to the `ke` matrix.
+If a convective boundary condition was defined for the element then we need to obtain the `km` matrix and add the contribution to the `ke` matrix.
 
 
 ```C++
@@ -216,7 +216,7 @@ gsl_matrix * TTriangle::getKm(long double convectivity) {
 }
 ```
 
-This method looks a little bit more complex than the first one but lets give a close look. First we need to check if the element has a convective condition in one of its edges.
+This method looks a little bit more complex than the one before but lets give a close look. First we need to check if the element has a convective condition in one of its edges.
 
 If there is not condition then no even one loop will be perform in the `for (it = conditions.begin(); it != conditions.end(); it++)` and of course the `if (i != -1 && j != -1)` will be false.
 
@@ -279,8 +279,8 @@ Note:
 For the moment I developed a really poor estimation of the flux vectors and for that, the improvement of this section is in the TODO list with high priority, for this reason I will not spend time to explain something that I hope I will change soon.
 
 ### Post Process
-The most simple but not less important section of our module is the post process, where we store in a text file with a special format the result we get.
-The format of the file is determined by GID and you can read more about it [here](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_17.html)
+The most simple but not less important section of our module is the post process, where we store in a text file with a special format the results we get.
+The format of the file is determined by GID and you can read more about it [here](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_17.html).
 
 You can see an example of the output in the file [test_flux.post.res](https://github.com/blasvicco/CFem2DHeat/blob/master/CFem2DHeat/bin/tests/test_flux.post.res).
 
@@ -293,4 +293,3 @@ If you add the GPT folder into the GID Problem type folder for a different OS, t
 
 - [ ] Really poor gradient estimation from temperature distribution. Research and implement a better approach of flux estimation. For example "Super convergent points for the flux".
 - [ ] Define a procedure and create a document for anyone that want to contribute to the project.
-
