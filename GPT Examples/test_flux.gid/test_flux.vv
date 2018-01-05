@@ -1,5 +1,5 @@
-BeginZE /Users/blas/tmp/temp2d/test_flux.gid/test_flux.vv
-   x -0.455404043197631836 2.45540428161621094
+BeginZE /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_flux.gid/test_flux.vv
+   x -0.465238034725189209 2.46523809432983398
    y 2.45296621322631836 -0.45296633243560791
    z -4.35889911651611328 4.35889911651611328
    e 1.45296633243560791
@@ -29,7 +29,7 @@ BeginZE /Users/blas/tmp/temp2d/test_flux.gid/test_flux.vv
    OGLStereo(EyeDistance) 0.075
    OGLStereo(LeftEyeDistance) 1 0 0 1
    OGLStereo(RightEyeDistance) 0 1 1 1
-EndZE /Users/blas/tmp/temp2d/test_flux.gid/test_flux.vv
+EndZE /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_flux.gid/test_flux.vv
 
 BeginMirror
    Mirror 0 Angle 0.0 AngleFake -15.0 SizeFactor 2.0 HeightOffset 0.25 Color #d9e5f24d Backlight Off EdgeStyle No Type Scene DrawMode Mirror

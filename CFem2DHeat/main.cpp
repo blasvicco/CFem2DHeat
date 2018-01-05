@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
     
     /**
      * Reading GID pre processing file
-     * We put everything in memory so we should take care when the input file is too large
+     * Loading everything in memory so take care when the input file is too large
      * TODO: Improve reading input file method.
      **/
     TInputParser::readFile(fileName);
@@ -81,14 +81,14 @@ int main(int argc, const char * argv[]) {
     if ( verbosityLevel >= 1) cout << "Assembling matrixs..." << endl;
     
     /**
-     * Getting infromation of the Input static object
+     * Getting information of the Input static object
      **/
     map<size_t, TElement*> connectivities   = TInputParser::getConnectivities();
     map<size_t, SCondition> conditions      = TInputParser::getConditions();
     map<size_t, SMaterial> materials        = TInputParser::getMaterials();
     
     /**
-     * Memory alloc and initialization of the needed matrix and vector
+     * Memory alloc and initialization of the needed matrix and vectors
      * K/F = A
      **/
     gsl_matrix *K = gsl_matrix_alloc(amountOfNodes, amountOfNodes); gsl_matrix_set_all(K, 0);
@@ -131,7 +131,7 @@ int main(int argc, const char * argv[]) {
         }
         
         /**
-         * For each node in the element we get contribution values to assemble the global K/F
+         * For each node in the element we get contribution values for the global K/F assembling
          **/
         gsl_matrix_add(ke, km);
         vector<size_t> nodeIds = OElement->getNodeIds();

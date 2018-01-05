@@ -18,7 +18,7 @@ Please refer to the next [link](https://www.gidhome.com/whats-gid/) for more det
 
 Please refer to the next [link](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_16.html) for more details.
 
-## What's this project contain?
+## What's in this project?
 You will find in this project:
 
 -. The [source code](https://github.com/blasvicco/CFem2DHeat/tree/master/CFem2DHeat) of the FEM implementation for the Steady-State Heat Transfer analysis in a 2D geometry.

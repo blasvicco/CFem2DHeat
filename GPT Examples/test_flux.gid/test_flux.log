@@ -1,41 +1,373 @@
 Loading problem solver...
-Reading input file: /Users/blas/tmp/temp2d/test_flux.gid/test_flux.dat
+Reading input file: /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_flux.gid/test_flux.dat
 
 Problem dimension:
-Number of nodes (9)
-Number of elements (8)
+Number of nodes (125)
+Number of elements (208)
 
 Condition: Node 1 Temperature 50
 Condition: Node 2 Temperature 50
 Condition: Node 5 Temperature 50
-Condition: Node 6 Flux -3.8
-Condition: Node 7 Flux -3.8
-Condition: Node 9 Flux -3.8
-Node: Id 1 Coords(0, 2)
-Node: Id 2 Coords(0, 1)
-Node: Id 3 Coords(1, 2)
-Node: Id 4 Coords(1, 1)
-Node: Id 5 Coords(0, 0)
-Node: Id 6 Coords(2, 2)
-Node: Id 7 Coords(2, 1)
-Node: Id 8 Coords(1, 0)
-Node: Id 9 Coords(2, 0)
-Element: Id 1 Nodes [ 2 5 8 ] Material 1
-Element: Id 2 Nodes [ 7 8 9 ] Material 1
-Element: Id 3 Nodes [ 3 6 7 ] Material 1
-Element: Id 4 Nodes [ 1 2 3 ] Material 1
-Element: Id 5 Nodes [ 2 4 8 ] Material 1
-Element: Id 6 Nodes [ 4 7 8 ] Material 1
-Element: Id 7 Nodes [ 3 4 7 ] Material 1
-Element: Id 8 Nodes [ 2 3 4 ] Material 1
+Condition: Node 9 Temperature 50
+Condition: Node 15 Temperature 50
+Condition: Node 23 Temperature 50
+Condition: Node 35 Temperature 50
+Condition: Node 47 Temperature 50
+Condition: Node 60 Temperature 50
+Condition: Node 75 Temperature 50
+Condition: Node 90 Temperature 50
+Condition: Node 91 Temperature 10
+Condition: Node 92 Temperature 10
+Condition: Node 95 Temperature 10
+Condition: Node 102 Temperature 10
+Condition: Node 106 Temperature 10
+Condition: Node 109 Temperature 10
+Condition: Node 115 Temperature 10
+Condition: Node 118 Temperature 10
+Condition: Node 122 Temperature 10
+Condition: Node 124 Temperature 10
+Condition: Node 125 Temperature 10
+Node: Id 1 Coords(0, 0)
+Node: Id 2 Coords(0, 0.2)
+Node: Id 3 Coords(0.2, 0)
+Node: Id 4 Coords(0.3, 0.173205)
+Node: Id 5 Coords(0, 0.4)
+Node: Id 6 Coords(0.4, 0)
+Node: Id 7 Coords(0.267949, 0.4)
+Node: Id 8 Coords(0.441154, 0.3)
+Node: Id 9 Coords(0, 0.6)
+Node: Id 10 Coords(0.6, 0)
+Node: Id 11 Coords(0.614359, 0.2)
+Node: Id 12 Coords(0.441154, 0.5)
+Node: Id 13 Coords(0.230008, 0.640046)
+Node: Id 14 Coords(0.614359, 0.4)
+Node: Id 15 Coords(0, 0.8)
+Node: Id 16 Coords(0.8, 0)
+Node: Id 17 Coords(0.441154, 0.7)
+Node: Id 18 Coords(0.787564, 0.3)
+Node: Id 19 Coords(0.614359, 0.6)
+Node: Id 20 Coords(0.229788, 0.840278)
+Node: Id 21 Coords(0.787564, 0.5)
+Node: Id 22 Coords(0.96077, 0.2)
+Node: Id 23 Coords(0, 1)
+Node: Id 24 Coords(1, 0)
+Node: Id 25 Coords(0.441154, 0.9)
+Node: Id 26 Coords(0.614359, 0.8)
+Node: Id 27 Coords(0.96077, 0.4)
+Node: Id 28 Coords(0.787564, 0.7)
+Node: Id 29 Coords(0.228472, 1.04167)
+Node: Id 30 Coords(0.96077, 0.6)
+Node: Id 31 Coords(0.614359, 1)
+Node: Id 32 Coords(1.14498, 0.283333)
+Node: Id 33 Coords(0.441154, 1.1)
+Node: Id 34 Coords(0.787564, 0.9)
+Node: Id 35 Coords(0, 1.2)
+Node: Id 36 Coords(1.2, 0)
+Node: Id 37 Coords(1.13397, 0.5)
+Node: Id 38 Coords(0.96077, 0.8)
+Node: Id 39 Coords(0.220577, 1.25)
+Node: Id 40 Coords(1.30718, 0.2)
+Node: Id 41 Coords(1.13397, 0.7)
+Node: Id 42 Coords(0.614359, 1.2)
+Node: Id 43 Coords(0.787564, 1.1)
+Node: Id 44 Coords(1.30718, 0.4)
+Node: Id 45 Coords(0.424793, 1.31851)
+Node: Id 46 Coords(0.96077, 1)
+Node: Id 47 Coords(0, 1.4)
+Node: Id 48 Coords(1.4, 0)
+Node: Id 49 Coords(1.30718, 0.6)
+Node: Id 50 Coords(1.13397, 0.9)
+Node: Id 51 Coords(0.226286, 1.44742)
+Node: Id 52 Coords(1.46699, 0.283333)
+Node: Id 53 Coords(0.787564, 1.3)
+Node: Id 54 Coords(0.614359, 1.4)
+Node: Id 55 Coords(1.30718, 0.8)
+Node: Id 56 Coords(0.96077, 1.2)
+Node: Id 57 Coords(1.48038, 0.5)
+Node: Id 58 Coords(0.432024, 1.51366)
+Node: Id 59 Coords(1.13397, 1.1)
+Node: Id 60 Coords(0, 1.6)
+Node: Id 61 Coords(1.6, 0)
+Node: Id 62 Coords(1.48038, 0.7)
+Node: Id 63 Coords(1.30718, 1)
+Node: Id 64 Coords(0.225724, 1.64845)
+Node: Id 65 Coords(1.65359, 0.2)
+Node: Id 66 Coords(0.787564, 1.5)
+Node: Id 67 Coords(0.96077, 1.4)
+Node: Id 68 Coords(1.65359, 0.4)
+Node: Id 69 Coords(0.614359, 1.6)
+Node: Id 70 Coords(1.13397, 1.3)
+Node: Id 71 Coords(1.48038, 0.9)
+Node: Id 72 Coords(1.65359, 0.6)
+Node: Id 73 Coords(1.30718, 1.2)
+Node: Id 74 Coords(0.423558, 1.73195)
+Node: Id 75 Coords(0, 1.8)
+Node: Id 76 Coords(1.8, 0)
+Node: Id 77 Coords(1.65359, 0.8)
+Node: Id 78 Coords(1.82233, 0.283333)
+Node: Id 79 Coords(1.48038, 1.1)
+Node: Id 80 Coords(0.25488, 1.8296)
+Node: Id 81 Coords(0.96077, 1.6)
+Node: Id 82 Coords(0.787564, 1.7)
+Node: Id 83 Coords(1.13397, 1.5)
+Node: Id 84 Coords(1.82679, 0.5)
+Node: Id 85 Coords(0.614359, 1.8)
+Node: Id 86 Coords(1.30718, 1.4)
+Node: Id 87 Coords(1.65359, 1)
+Node: Id 88 Coords(1.82679, 0.7)
+Node: Id 89 Coords(1.48038, 1.3)
+Node: Id 90 Coords(0, 2)
+Node: Id 91 Coords(2, 0)
+Node: Id 92 Coords(2, 0.2)
+Node: Id 93 Coords(0.2, 2)
+Node: Id 94 Coords(1.82679, 0.9)
+Node: Id 95 Coords(2, 0.4)
+Node: Id 96 Coords(0.4, 2)
+Node: Id 97 Coords(0.96077, 1.8)
+Node: Id 98 Coords(1.65359, 1.2)
+Node: Id 99 Coords(1.14498, 1.71667)
+Node: Id 100 Coords(1.30718, 1.6)
+Node: Id 101 Coords(0.6, 2)
+Node: Id 102 Coords(2, 0.6)
+Node: Id 103 Coords(1.48038, 1.5)
+Node: Id 104 Coords(1.82679, 1.1)
+Node: Id 105 Coords(0.8, 2)
+Node: Id 106 Coords(2, 0.8)
+Node: Id 107 Coords(1.65359, 1.4)
+Node: Id 108 Coords(1.30718, 1.8)
+Node: Id 109 Coords(2, 1)
+Node: Id 110 Coords(1, 2)
+Node: Id 111 Coords(1.82679, 1.3)
+Node: Id 112 Coords(1.65359, 1.6)
+Node: Id 113 Coords(1.48599, 1.75714)
+Node: Id 114 Coords(1.2, 2)
+Node: Id 115 Coords(2, 1.2)
+Node: Id 116 Coords(1.82679, 1.5)
+Node: Id 117 Coords(1.4, 2)
+Node: Id 118 Coords(2, 1.4)
+Node: Id 119 Coords(1.65359, 1.8)
+Node: Id 120 Coords(1.82233, 1.71667)
+Node: Id 121 Coords(1.6, 2)
+Node: Id 122 Coords(2, 1.6)
+Node: Id 123 Coords(1.8, 2)
+Node: Id 124 Coords(2, 1.8)
+Node: Id 125 Coords(2, 2)
+Element: Id 1 Nodes [ 1 2 3 ] Material 1
+Element: Id 2 Nodes [ 111 115 118 ] Material 1
+Element: Id 3 Nodes [ 47 51 60 ] Material 1
+Element: Id 4 Nodes [ 111 116 118 ] Material 1
+Element: Id 5 Nodes [ 104 111 115 ] Material 1
+Element: Id 6 Nodes [ 39 47 51 ] Material 1
+Element: Id 7 Nodes [ 116 118 122 ] Material 1
+Element: Id 8 Nodes [ 98 104 111 ] Material 1
+Element: Id 9 Nodes [ 35 39 47 ] Material 1
+Element: Id 10 Nodes [ 98 107 111 ] Material 1
+Element: Id 11 Nodes [ 87 98 104 ] Material 1
+Element: Id 12 Nodes [ 107 111 116 ] Material 1
+Element: Id 13 Nodes [ 89 98 107 ] Material 1
+Element: Id 14 Nodes [ 79 87 98 ] Material 1
+Element: Id 15 Nodes [ 107 112 116 ] Material 1
+Element: Id 16 Nodes [ 89 103 107 ] Material 1
+Element: Id 17 Nodes [ 79 89 98 ] Material 1
+Element: Id 18 Nodes [ 112 116 120 ] Material 1
+Element: Id 19 Nodes [ 103 107 112 ] Material 1
+Element: Id 20 Nodes [ 73 79 89 ] Material 1
+Element: Id 21 Nodes [ 116 120 122 ] Material 1
+Element: Id 22 Nodes [ 73 86 89 ] Material 1
+Element: Id 23 Nodes [ 63 73 79 ] Material 1
+Element: Id 24 Nodes [ 86 89 103 ] Material 1
+Element: Id 25 Nodes [ 70 73 86 ] Material 1
+Element: Id 26 Nodes [ 59 63 73 ] Material 1
+Element: Id 27 Nodes [ 86 100 103 ] Material 1
+Element: Id 28 Nodes [ 70 83 86 ] Material 1
+Element: Id 29 Nodes [ 59 70 73 ] Material 1
+Element: Id 30 Nodes [ 50 59 63 ] Material 1
+Element: Id 31 Nodes [ 100 103 113 ] Material 1
+Element: Id 32 Nodes [ 83 86 100 ] Material 1
+Element: Id 33 Nodes [ 56 59 70 ] Material 1
+Element: Id 34 Nodes [ 46 50 59 ] Material 1
+Element: Id 35 Nodes [ 103 112 113 ] Material 1
+Element: Id 36 Nodes [ 83 99 100 ] Material 1
+Element: Id 37 Nodes [ 56 67 70 ] Material 1
+Element: Id 38 Nodes [ 46 56 59 ] Material 1
+Element: Id 39 Nodes [ 99 100 108 ] Material 1
+Element: Id 40 Nodes [ 81 83 99 ] Material 1
+Element: Id 41 Nodes [ 67 70 83 ] Material 1
+Element: Id 42 Nodes [ 43 46 56 ] Material 1
+Element: Id 43 Nodes [ 100 108 113 ] Material 1
+Element: Id 44 Nodes [ 81 97 99 ] Material 1
+Element: Id 45 Nodes [ 67 81 83 ] Material 1
+Element: Id 46 Nodes [ 43 53 56 ] Material 1
+Element: Id 47 Nodes [ 97 99 114 ] Material 1
+Element: Id 48 Nodes [ 81 82 97 ] Material 1
+Element: Id 49 Nodes [ 66 67 81 ] Material 1
+Element: Id 50 Nodes [ 53 56 67 ] Material 1
+Element: Id 51 Nodes [ 82 97 105 ] Material 1
+Element: Id 52 Nodes [ 66 81 82 ] Material 1
+Element: Id 53 Nodes [ 53 66 67 ] Material 1
+Element: Id 54 Nodes [ 66 69 82 ] Material 1
+Element: Id 55 Nodes [ 53 54 66 ] Material 1
+Element: Id 56 Nodes [ 69 82 85 ] Material 1
+Element: Id 57 Nodes [ 54 66 69 ] Material 1
+Element: Id 58 Nodes [ 82 85 105 ] Material 1
+Element: Id 59 Nodes [ 69 74 85 ] Material 1
+Element: Id 60 Nodes [ 54 58 69 ] Material 1
+Element: Id 61 Nodes [ 74 85 96 ] Material 1
+Element: Id 62 Nodes [ 58 69 74 ] Material 1
+Element: Id 63 Nodes [ 45 54 58 ] Material 1
+Element: Id 64 Nodes [ 51 58 64 ] Material 1
+Element: Id 65 Nodes [ 45 51 58 ] Material 1
+Element: Id 66 Nodes [ 42 45 54 ] Material 1
+Element: Id 67 Nodes [ 33 42 45 ] Material 1
+Element: Id 68 Nodes [ 42 53 54 ] Material 1
+Element: Id 69 Nodes [ 33 39 45 ] Material 1
+Element: Id 70 Nodes [ 31 33 42 ] Material 1
+Element: Id 71 Nodes [ 42 43 53 ] Material 1
+Element: Id 72 Nodes [ 25 31 33 ] Material 1
+Element: Id 73 Nodes [ 31 42 43 ] Material 1
+Element: Id 74 Nodes [ 25 29 33 ] Material 1
+Element: Id 75 Nodes [ 25 26 31 ] Material 1
+Element: Id 76 Nodes [ 31 34 43 ] Material 1
+Element: Id 77 Nodes [ 29 33 39 ] Material 1
+Element: Id 78 Nodes [ 20 25 29 ] Material 1
+Element: Id 79 Nodes [ 17 25 26 ] Material 1
+Element: Id 80 Nodes [ 26 31 34 ] Material 1
+Element: Id 81 Nodes [ 20 23 29 ] Material 1
+Element: Id 82 Nodes [ 17 20 25 ] Material 1
+Element: Id 83 Nodes [ 26 28 34 ] Material 1
+Element: Id 84 Nodes [ 13 17 20 ] Material 1
+Element: Id 85 Nodes [ 19 26 28 ] Material 1
+Element: Id 86 Nodes [ 28 34 38 ] Material 1
+Element: Id 87 Nodes [ 13 15 20 ] Material 1
+Element: Id 88 Nodes [ 12 13 17 ] Material 1
+Element: Id 89 Nodes [ 17 19 26 ] Material 1
+Element: Id 90 Nodes [ 28 30 38 ] Material 1
+Element: Id 91 Nodes [ 7 12 13 ] Material 1
+Element: Id 92 Nodes [ 12 17 19 ] Material 1
+Element: Id 93 Nodes [ 21 28 30 ] Material 1
+Element: Id 94 Nodes [ 30 38 41 ] Material 1
+Element: Id 95 Nodes [ 7 9 13 ] Material 1
+Element: Id 96 Nodes [ 12 14 19 ] Material 1
+Element: Id 97 Nodes [ 19 21 28 ] Material 1
+Element: Id 98 Nodes [ 30 37 41 ] Material 1
+Element: Id 99 Nodes [ 8 12 14 ] Material 1
+Element: Id 100 Nodes [ 14 19 21 ] Material 1
+Element: Id 101 Nodes [ 27 30 37 ] Material 1
+Element: Id 102 Nodes [ 37 41 49 ] Material 1
+Element: Id 103 Nodes [ 7 8 12 ] Material 1
+Element: Id 104 Nodes [ 14 18 21 ] Material 1
+Element: Id 105 Nodes [ 21 27 30 ] Material 1
+Element: Id 106 Nodes [ 37 44 49 ] Material 1
+Element: Id 107 Nodes [ 11 14 18 ] Material 1
+Element: Id 108 Nodes [ 18 21 27 ] Material 1
+Element: Id 109 Nodes [ 32 37 44 ] Material 1
+Element: Id 110 Nodes [ 44 49 57 ] Material 1
+Element: Id 111 Nodes [ 8 11 14 ] Material 1
+Element: Id 112 Nodes [ 18 22 27 ] Material 1
+Element: Id 113 Nodes [ 27 32 37 ] Material 1
+Element: Id 114 Nodes [ 44 52 57 ] Material 1
+Element: Id 115 Nodes [ 16 18 22 ] Material 1
+Element: Id 116 Nodes [ 22 27 32 ] Material 1
+Element: Id 117 Nodes [ 40 44 52 ] Material 1
+Element: Id 118 Nodes [ 52 57 68 ] Material 1
+Element: Id 119 Nodes [ 22 32 36 ] Material 1
+Element: Id 120 Nodes [ 32 40 44 ] Material 1
+Element: Id 121 Nodes [ 52 65 68 ] Material 1
+Element: Id 122 Nodes [ 57 68 72 ] Material 1
+Element: Id 123 Nodes [ 32 36 40 ] Material 1
+Element: Id 124 Nodes [ 48 52 65 ] Material 1
+Element: Id 125 Nodes [ 68 72 84 ] Material 1
+Element: Id 126 Nodes [ 57 62 72 ] Material 1
+Element: Id 127 Nodes [ 68 78 84 ] Material 1
+Element: Id 128 Nodes [ 72 84 88 ] Material 1
+Element: Id 129 Nodes [ 62 72 77 ] Material 1
+Element: Id 130 Nodes [ 65 68 78 ] Material 1
+Element: Id 131 Nodes [ 72 77 88 ] Material 1
+Element: Id 132 Nodes [ 65 76 78 ] Material 1
+Element: Id 133 Nodes [ 77 88 94 ] Material 1
+Element: Id 134 Nodes [ 88 94 106 ] Material 1
+Element: Id 135 Nodes [ 77 87 94 ] Material 1
+Element: Id 136 Nodes [ 88 102 106 ] Material 1
+Element: Id 137 Nodes [ 94 106 109 ] Material 1
+Element: Id 138 Nodes [ 87 94 104 ] Material 1
+Element: Id 139 Nodes [ 84 88 102 ] Material 1
+Element: Id 140 Nodes [ 94 104 109 ] Material 1
+Element: Id 141 Nodes [ 84 95 102 ] Material 1
+Element: Id 142 Nodes [ 104 109 115 ] Material 1
+Element: Id 143 Nodes [ 78 84 95 ] Material 1
+Element: Id 144 Nodes [ 78 92 95 ] Material 1
+Element: Id 145 Nodes [ 76 78 92 ] Material 1
+Element: Id 146 Nodes [ 49 57 62 ] Material 1
+Element: Id 147 Nodes [ 49 55 62 ] Material 1
+Element: Id 148 Nodes [ 55 62 71 ] Material 1
+Element: Id 149 Nodes [ 41 49 55 ] Material 1
+Element: Id 150 Nodes [ 62 71 77 ] Material 1
+Element: Id 151 Nodes [ 55 63 71 ] Material 1
+Element: Id 152 Nodes [ 41 50 55 ] Material 1
+Element: Id 153 Nodes [ 71 77 87 ] Material 1
+Element: Id 154 Nodes [ 63 71 79 ] Material 1
+Element: Id 155 Nodes [ 50 55 63 ] Material 1
+Element: Id 156 Nodes [ 71 79 87 ] Material 1
+Element: Id 157 Nodes [ 61 65 76 ] Material 1
+Element: Id 158 Nodes [ 97 110 114 ] Material 1
+Element: Id 159 Nodes [ 112 119 120 ] Material 1
+Element: Id 160 Nodes [ 119 120 123 ] Material 1
+Element: Id 161 Nodes [ 112 113 119 ] Material 1
+Element: Id 162 Nodes [ 113 117 121 ] Material 1
+Element: Id 163 Nodes [ 34 38 46 ] Material 1
+Element: Id 164 Nodes [ 38 46 50 ] Material 1
+Element: Id 165 Nodes [ 34 43 46 ] Material 1
+Element: Id 166 Nodes [ 38 41 50 ] Material 1
+Element: Id 167 Nodes [ 16 22 24 ] Material 1
+Element: Id 168 Nodes [ 123 124 125 ] Material 1
+Element: Id 169 Nodes [ 9 13 15 ] Material 1
+Element: Id 170 Nodes [ 80 93 96 ] Material 1
+Element: Id 171 Nodes [ 75 80 93 ] Material 1
+Element: Id 172 Nodes [ 74 80 96 ] Material 1
+Element: Id 173 Nodes [ 64 74 80 ] Material 1
+Element: Id 174 Nodes [ 64 75 80 ] Material 1
+Element: Id 175 Nodes [ 58 64 74 ] Material 1
+Element: Id 176 Nodes [ 51 60 64 ] Material 1
+Element: Id 177 Nodes [ 6 10 11 ] Material 1
+Element: Id 178 Nodes [ 120 122 124 ] Material 1
+Element: Id 179 Nodes [ 120 123 124 ] Material 1
+Element: Id 180 Nodes [ 23 29 35 ] Material 1
+Element: Id 181 Nodes [ 76 91 92 ] Material 1
+Element: Id 182 Nodes [ 85 101 105 ] Material 1
+Element: Id 183 Nodes [ 39 45 51 ] Material 1
+Element: Id 184 Nodes [ 36 40 48 ] Material 1
+Element: Id 185 Nodes [ 113 119 121 ] Material 1
+Element: Id 186 Nodes [ 2 5 7 ] Material 1
+Element: Id 187 Nodes [ 75 90 93 ] Material 1
+Element: Id 188 Nodes [ 3 4 6 ] Material 1
+Element: Id 189 Nodes [ 4 6 11 ] Material 1
+Element: Id 190 Nodes [ 2 3 4 ] Material 1
+Element: Id 191 Nodes [ 29 35 39 ] Material 1
+Element: Id 192 Nodes [ 99 108 114 ] Material 1
+Element: Id 193 Nodes [ 97 105 110 ] Material 1
+Element: Id 194 Nodes [ 4 7 8 ] Material 1
+Element: Id 195 Nodes [ 4 8 11 ] Material 1
+Element: Id 196 Nodes [ 22 24 36 ] Material 1
+Element: Id 197 Nodes [ 119 121 123 ] Material 1
+Element: Id 198 Nodes [ 5 7 9 ] Material 1
+Element: Id 199 Nodes [ 40 48 52 ] Material 1
+Element: Id 200 Nodes [ 11 16 18 ] Material 1
+Element: Id 201 Nodes [ 10 11 16 ] Material 1
+Element: Id 202 Nodes [ 15 20 23 ] Material 1
+Element: Id 203 Nodes [ 108 113 117 ] Material 1
+Element: Id 204 Nodes [ 85 96 101 ] Material 1
+Element: Id 205 Nodes [ 48 61 65 ] Material 1
+Element: Id 206 Nodes [ 108 114 117 ] Material 1
+Element: Id 207 Nodes [ 60 64 75 ] Material 1
+Element: Id 208 Nodes [ 2 4 7 ] Material 1
 Material: Id 1 Conductivity 0.19 Convectivity 1
 
 Assembling matrixs...
 Processing element 1
 Element K: 
-0.09  -0.1  0.00  
--0.1  0.19  -0.1  
-0.00  -0.1  0.09  
+0.18  -0.1  -0.1  
+-0.1  0.09  0.00  
+-0.1  0.00  0.09  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -53,6 +385,3326 @@ Element Ff:
 
 Processing element 2
 Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 3
+Element K: 
+0.15  -0.07  -0.1  
+-0.07  0.08  -0.02  
+-0.1  -0.02  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 4
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 5
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 6
+Element K: 
+0.11  -0.03  -0.1  
+-0.03  0.08  -0.07  
+-0.1  -0.07  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 7
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 8
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 9
+Element K: 
+0.15  -0.07  -0.09  
+-0.07  0.08  -0.03  
+-0.09  -0.03  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 10
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 11
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 12
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 13
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 14
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 15
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 16
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 17
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 18
+Element K: 
+0.12  -0.07  -0.06  
+-0.07  0.1  -0.05  
+-0.06  -0.05  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 19
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 20
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 21
+Element K: 
+0.11  -0.05  -0.07  
+-0.05  0.1  -0.06  
+-0.07  -0.06  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 22
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 23
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 24
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 25
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 26
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 27
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 28
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 29
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 30
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 31
+Element K: 
+0.13  -0.09  -0.06  
+-0.09  0.11  -0.04  
+-0.06  -0.04  0.08  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 32
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 33
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 34
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 35
+Element K: 
+0.11  -0.09  -0.03  
+-0.09  0.14  -0.06  
+-0.03  -0.06  0.08  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 36
+Element K: 
+0.1  -0.05  -0.07  
+-0.05  0.1  -0.07  
+-0.07  -0.07  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 37
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 38
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 39
+Element K: 
+0.11  -0.05  -0.07  
+-0.05  0.09  -0.05  
+-0.07  -0.05  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 40
+Element K: 
+0.11  -0.07  -0.05  
+-0.07  0.11  -0.05  
+-0.05  -0.05  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 41
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 42
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 43
+Element K: 
+0.08  -0.07  -0.03  
+-0.07  0.15  -0.09  
+-0.03  -0.09  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 44
+Element K: 
+0.1  -0.07  -0.05  
+-0.07  0.12  -0.07  
+-0.05  -0.07  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 45
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 46
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 47
+Element K: 
+0.13  -0.12  -0.03  
+-0.12  0.16  -0.05  
+-0.03  -0.05  0.06  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 48
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 49
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 50
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 51
+Element K: 
+0.12  -0.11  -0.02  
+-0.11  0.16  -0.07  
+-0.02  -0.07  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 52
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 53
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 54
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 55
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 56
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 57
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 58
+Element K: 
+0.13  -0.12  -0.03  
+-0.12  0.16  -0.05  
+-0.03  -0.05  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 59
+Element K: 
+0.1  -0.04  -0.07  
+-0.04  0.09  -0.07  
+-0.07  -0.07  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 60
+Element K: 
+0.1  -0.05  -0.07  
+-0.05  0.1  -0.06  
+-0.07  -0.06  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 61
+Element K: 
+0.15  -0.11  -0.05  
+-0.11  0.13  -0.03  
+-0.05  -0.03  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 62
+Element K: 
+0.12  -0.08  -0.06  
+-0.08  0.11  -0.05  
+-0.06  -0.05  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 63
+Element K: 
+0.12  -0.06  -0.07  
+-0.06  0.09  -0.05  
+-0.07  -0.05  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 64
+Element K: 
+0.13  -0.07  -0.08  
+-0.07  0.09  -0.04  
+-0.08  -0.04  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 65
+Element K: 
+0.11  -0.04  -0.08  
+-0.04  0.09  -0.06  
+-0.08  -0.06  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 66
+Element K: 
+0.1  -0.05  -0.07  
+-0.05  0.1  -0.06  
+-0.07  -0.06  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 67
+Element K: 
+0.12  -0.07  -0.06  
+-0.07  0.11  -0.05  
+-0.06  -0.05  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 68
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 69
+Element K: 
+0.09  -0.03  -0.08  
+-0.03  0.09  -0.08  
+-0.08  -0.08  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 70
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 71
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 72
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 73
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 74
+Element K: 
+0.1  -0.03  -0.09  
+-0.03  0.08  -0.07  
+-0.09  -0.07  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 75
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 76
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 77
+Element K: 
+0.15  -0.08  -0.09  
+-0.08  0.09  -0.03  
+-0.09  -0.03  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 78
+Element K: 
+0.14  -0.07  -0.09  
+-0.07  0.09  -0.03  
+-0.09  -0.03  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 79
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 80
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 81
+Element K: 
+0.11  -0.02  -0.1  
+-0.02  0.08  -0.07  
+-0.1  -0.07  0.16  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 82
+Element K: 
+0.1  -0.03  -0.09  
+-0.03  0.08  -0.07  
+-0.09  -0.07  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 83
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 84
+Element K: 
+0.14  -0.07  -0.09  
+-0.07  0.09  -0.03  
+-0.09  -0.03  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 85
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 86
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 87
+Element K: 
+0.11  -0.02  -0.1  
+-0.02  0.08  -0.07  
+-0.1  -0.07  0.16  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 88
+Element K: 
+0.1  -0.03  -0.09  
+-0.03  0.08  -0.07  
+-0.09  -0.07  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 89
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 90
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 91
+Element K: 
+0.13  -0.09  -0.05  
+-0.09  0.12  -0.04  
+-0.05  -0.04  0.08  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 92
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 93
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 94
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 95
+Element K: 
+0.09  -0.01  -0.09  
+-0.01  0.09  -0.1  
+-0.09  -0.1  0.18  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 96
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 97
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 98
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 99
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 100
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 101
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 102
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 103
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 104
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 105
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 106
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 107
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 108
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 109
+Element K: 
+0.1  -0.05  -0.07  
+-0.05  0.1  -0.07  
+-0.07  -0.07  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 110
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 111
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 112
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 113
+Element K: 
+0.11  -0.05  -0.07  
+-0.05  0.09  -0.05  
+-0.07  -0.05  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 114
+Element K: 
+0.12  -0.07  -0.07  
+-0.07  0.1  -0.05  
+-0.07  -0.05  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 115
+Element K: 
+0.07  -0.02  -0.07  
+-0.02  0.12  -0.11  
+-0.07  -0.11  0.16  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 116
+Element K: 
+0.12  -0.07  -0.07  
+-0.07  0.1  -0.05  
+-0.07  -0.05  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 117
+Element K: 
+0.11  -0.05  -0.07  
+-0.05  0.09  -0.05  
+-0.07  -0.05  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 118
+Element K: 
+0.09  -0.06  -0.05  
+-0.06  0.11  -0.07  
+-0.05  -0.07  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 119
+Element K: 
+0.13  -0.12  -0.03  
+-0.12  0.16  -0.05  
+-0.03  -0.05  0.06  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 120
+Element K: 
+0.11  -0.07  -0.05  
+-0.07  0.11  -0.05  
+-0.05  -0.05  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 121
+Element K: 
+0.1  -0.06  -0.05  
+-0.06  0.12  -0.07  
+-0.05  -0.07  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 122
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 123
+Element K: 
+0.11  -0.01  -0.12  
+-0.01  0.07  -0.08  
+-0.12  -0.08  0.19  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 124
+Element K: 
+0.06  -0.05  -0.02  
+-0.05  0.16  -0.12  
+-0.02  -0.12  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 125
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 126
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 127
+Element K: 
+0.12  -0.06  -0.07  
+-0.06  0.1  -0.05  
+-0.07  -0.05  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 128
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 129
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 130
+Element K: 
+0.11  -0.06  -0.07  
+-0.06  0.09  -0.05  
+-0.07  -0.05  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 131
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 132
+Element K: 
+0.16  -0.06  -0.12  
+-0.06  0.07  -0.02  
+-0.12  -0.02  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 133
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 134
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 135
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 136
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 137
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 138
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 139
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 140
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 141
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 142
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 143
+Element K: 
+0.1  -0.05  -0.06  
+-0.05  0.11  -0.07  
+-0.06  -0.07  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 144
+Element K: 
+0.1  -0.07  -0.05  
+-0.07  0.12  -0.06  
+-0.05  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 145
+Element K: 
+0.07  -0.04  -0.04  
+-0.04  0.14  -0.12  
+-0.04  -0.12  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 146
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 147
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 148
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 149
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 150
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 151
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 152
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 153
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 154
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 155
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 156
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 157
+Element K: 
+0.14  -0.07  -0.08  
+-0.07  0.09  -0.03  
+-0.08  -0.03  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 158
+Element K: 
+0.09  -0.12  0.01  
+-0.12  0.23  -0.12  
+0.01  -0.12  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 159
+Element K: 
+0.09  -0.06  -0.05  
+-0.06  0.11  -0.07  
+-0.05  -0.07  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 160
+Element K: 
+0.16  -0.12  -0.06  
+-0.12  0.12  -0.02  
+-0.06  -0.02  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 161
+Element K: 
+0.08  -0.03  -0.07  
+-0.03  0.11  -0.09  
+-0.07  -0.09  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 162
+Element K: 
+0.07  -0.05  -0.04  
+-0.05  0.14  -0.1  
+-0.04  -0.1  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 163
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 164
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 165
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 166
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 167
+Element K: 
+0.09  -0.02  -0.09  
+-0.02  0.09  -0.08  
+-0.09  -0.08  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 168
+Element K: 
 0.09  0.00  -0.1  
 0.00  0.09  -0.1  
 -0.1  -0.1  0.19  
@@ -63,19 +3715,39 @@ Element Km:
 0.00  0.00  0.00  
 
 Element F: 
-0.00  0.00  0.00  
+0.00  10.00  10.00  
 
 Element Fc: 
 0.00  0.00  0.00  
 
 Element Ff: 
--1.9  0.00  -1.9  
+0.00  0.00  0.00  
 
-Processing element 3
+Processing element 169
 Element K: 
-0.09  -0.1  0.00  
--0.1  0.19  -0.1  
-0.00  -0.1  0.09  
+0.16  -0.07  -0.1  
+-0.07  0.08  -0.02  
+-0.1  -0.02  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 170
+Element K: 
+0.11  -0.09  -0.04  
+-0.09  0.13  -0.06  
+-0.04  -0.06  0.08  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -89,33 +3761,13 @@ Element Fc:
 0.00  0.00  0.00  
 
 Element Ff: 
-0.00  -1.9  -1.9  
+0.00  0.00  0.00  
 
-Processing element 4
+Processing element 171
 Element K: 
-0.19  -0.1  -0.1  
--0.1  0.09  0.00  
--0.1  0.00  0.09  
-
-Element Km: 
-0.00  0.00  0.00  
-0.00  0.00  0.00  
-0.00  0.00  0.00  
-
-Element F: 
-50.00  50.00  0.00  
-
-Element Fc: 
-0.00  0.00  0.00  
-
-Element Ff: 
-0.00  0.00  0.00  
-
-Processing element 5
-Element K: 
-0.09  -0.1  0.00  
--0.1  0.19  -0.1  
-0.00  -0.1  0.09  
+0.06  -0.05  -0.02  
+-0.05  0.16  -0.12  
+-0.02  -0.12  0.13  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -131,11 +3783,11 @@ Element Fc:
 Element Ff: 
 0.00  0.00  0.00  
 
-Processing element 6
+Processing element 172
 Element K: 
-0.19  -0.1  -0.1  
--0.1  0.09  0.00  
--0.1  0.00  0.09  
+0.11  -0.1  -0.02  
+-0.1  0.16  -0.07  
+-0.02  -0.07  0.08  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -151,7 +3803,167 @@ Element Fc:
 Element Ff: 
 0.00  0.00  0.00  
 
-Processing element 7
+Processing element 173
+Element K: 
+0.1  -0.04  -0.08  
+-0.04  0.09  -0.06  
+-0.08  -0.06  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 174
+Element K: 
+0.13  -0.03  -0.12  
+-0.03  0.07  -0.05  
+-0.12  -0.05  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 175
+Element K: 
+0.09  -0.04  -0.07  
+-0.04  0.1  -0.07  
+-0.07  -0.07  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 176
+Element K: 
+0.11  -0.03  -0.1  
+-0.03  0.08  -0.07  
+-0.1  -0.07  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 177
+Element K: 
+0.09  -0.11  0.00  
+-0.11  0.2  -0.11  
+0.00  -0.11  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 178
+Element K: 
+0.1  -0.05  -0.07  
+-0.05  0.1  -0.06  
+-0.07  -0.06  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 179
+Element K: 
+0.14  -0.04  -0.12  
+-0.04  0.07  -0.04  
+-0.12  -0.04  0.14  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 180
+Element K: 
+0.16  -0.07  -0.1  
+-0.07  0.08  -0.02  
+-0.1  -0.02  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 181
 Element K: 
 0.09  -0.1  0.00  
 -0.1  0.19  -0.1  
@@ -163,6 +3975,26 @@ Element Km:
 0.00  0.00  0.00  
 
 Element F: 
+0.00  10.00  10.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 182
+Element K: 
+0.09  -0.09  -0.01  
+-0.09  0.17  -0.09  
+-0.01  -0.09  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
 0.00  0.00  0.00  
 
 Element Fc: 
@@ -171,11 +4003,511 @@ Element Fc:
 Element Ff: 
 0.00  0.00  0.00  
 
-Processing element 8
+Processing element 183
 Element K: 
-0.09  0.00  -0.1  
-0.00  0.09  -0.1  
--0.1  -0.1  0.19  
+0.13  -0.06  -0.08  
+-0.06  0.09  -0.04  
+-0.08  -0.04  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 184
+Element K: 
+0.11  -0.05  -0.08  
+-0.05  0.09  -0.06  
+-0.08  -0.06  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 185
+Element K: 
+0.11  -0.12  -0.01  
+-0.12  0.19  -0.08  
+-0.01  -0.08  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 186
+Element K: 
+0.12  -0.13  0.00  
+-0.13  0.19  -0.08  
+0.00  -0.08  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 187
+Element K: 
+0.09  -0.1  0.00  
+-0.1  0.19  -0.1  
+0.00  -0.1  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 188
+Element K: 
+0.1  -0.06  -0.06  
+-0.06  0.1  -0.06  
+-0.06  -0.06  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 189
+Element K: 
+0.14  -0.13  -0.03  
+-0.13  0.16  -0.05  
+-0.03  -0.05  0.06  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 190
+Element K: 
+0.06  -0.05  -0.03  
+-0.05  0.15  -0.12  
+-0.03  -0.12  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 191
+Element K: 
+0.1  -0.02  -0.09  
+-0.02  0.08  -0.08  
+-0.09  -0.08  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  50.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 192
+Element K: 
+0.11  -0.12  -0.01  
+-0.12  0.19  -0.08  
+-0.01  -0.08  0.07  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 193
+Element K: 
+0.09  -0.02  -0.08  
+-0.02  0.09  -0.09  
+-0.08  -0.09  0.15  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 194
+Element K: 
+0.1  -0.04  -0.08  
+-0.04  0.09  -0.07  
+-0.08  -0.07  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 195
+Element K: 
+0.1  -0.14  0.03  
+-0.14  0.26  -0.13  
+0.03  -0.13  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 196
+Element K: 
+0.09  -0.12  0.01  
+-0.12  0.23  -0.12  
+0.01  -0.12  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 197
+Element K: 
+0.09  -0.07  -0.03  
+-0.07  0.14  -0.08  
+-0.03  -0.08  0.1  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 198
+Element K: 
+0.19  -0.08  -0.13  
+-0.08  0.07  0.00  
+-0.13  0.00  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 199
+Element K: 
+0.2  -0.09  -0.13  
+-0.09  0.07  0.00  
+-0.13  0.00  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 200
+Element K: 
+0.16  -0.05  -0.12  
+-0.05  0.07  -0.03  
+-0.12  -0.03  0.13  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 201
+Element K: 
+0.17  -0.09  -0.09  
+-0.09  0.09  -0.01  
+-0.09  -0.01  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 202
+Element K: 
+0.16  -0.07  -0.1  
+-0.07  0.08  -0.02  
+-0.1  -0.02  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 203
+Element K: 
+0.15  -0.1  -0.07  
+-0.1  0.11  -0.02  
+-0.07  -0.02  0.08  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 204
+Element K: 
+0.09  0.00  -0.11  
+0.00  0.09  -0.11  
+-0.11  -0.11  0.2  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 205
+Element K: 
+0.1  -0.13  0.02  
+-0.13  0.24  -0.13  
+0.02  -0.13  0.09  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 206
+Element K: 
+0.09  -0.05  -0.06  
+-0.05  0.11  -0.08  
+-0.06  -0.08  0.12  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+0.00  0.00  0.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 207
+Element K: 
+0.15  -0.07  -0.1  
+-0.07  0.08  -0.03  
+-0.1  -0.03  0.11  
+
+Element Km: 
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+0.00  0.00  0.00  
+
+Element F: 
+50.00  0.00  50.00  
+
+Element Fc: 
+0.00  0.00  0.00  
+
+Element Ff: 
+0.00  0.00  0.00  
+
+Processing element 208
+Element K: 
+0.07  -0.06  -0.03  
+-0.06  0.15  -0.11  
+-0.03  -0.11  0.12  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -194,28 +4526,144 @@ Element Ff:
 
 Equation system matrix assembled
 K: 
-1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
-0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
--0.1  0.00  0.38  -0.2  0.00  -0.1  0.00  0.00  0.00  
-0.00  -0.2  -0.2  0.76  0.00  0.00  -0.2  -0.2  0.00  
-0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  
-0.00  0.00  -0.1  0.00  0.00  0.19  -0.1  0.00  0.00  
-0.00  0.00  0.00  -0.2  0.00  -0.1  0.38  0.00  -0.1  
-0.00  0.00  0.00  -0.2  -0.1  0.00  0.00  0.38  -0.1  
-0.00  0.00  0.00  0.00  0.00  0.00  -0.1  -0.1  0.19  
+1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+-0.1  -0.05  0.36  -0.17  0.00  -0.06  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  -0.08  -0.17  0.76  0.00  -0.18  -0.14  -0.22  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  -0.06  -0.18  0.00  0.37  0.00  0.00  0.00  -0.11  -0.04  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  -0.03  0.00  -0.14  -0.15  0.00  0.7  -0.12  -0.01  0.00  0.00  -0.15  -0.14  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  -0.22  0.00  0.00  -0.12  0.72  0.00  0.00  -0.19  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.38  -0.2  0.00  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  -0.04  0.00  -0.19  0.00  -0.2  0.73  0.00  0.00  -0.11  0.00  -0.06  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  -0.15  -0.11  0.00  0.00  0.00  0.67  -0.07  -0.11  0.00  0.00  -0.14  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  -0.14  0.00  -0.17  0.00  0.00  -0.07  0.7  0.00  -0.04  0.00  -0.13  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  -0.11  0.00  0.65  0.00  0.00  0.00  -0.11  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  -0.06  0.00  0.00  0.00  0.00  0.34  0.00  -0.04  0.00  0.00  0.00  -0.08  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.14  -0.13  0.00  0.00  0.00  0.67  0.00  -0.11  -0.06  0.00  0.00  0.00  0.00  -0.14  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  -0.11  0.00  -0.04  0.00  0.69  0.00  0.00  -0.11  -0.17  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  -0.11  0.00  0.65  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  -0.14  0.00  -0.06  0.00  0.00  0.69  0.00  0.00  -0.04  0.00  -0.13  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  -0.11  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  -0.17  0.00  0.00  0.00  0.73  0.00  -0.19  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  -0.01  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  -0.19  0.00  0.38  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.14  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.67  -0.11  0.00  0.00  -0.06  0.00  -0.11  0.00  -0.14  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.65  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  -0.12  0.00  0.00  0.00  0.00  0.65  0.00  0.00  -0.11  0.00  -0.1  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.65  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  -0.14  0.00  -0.06  0.00  0.00  0.00  0.69  0.00  0.00  0.00  -0.14  0.00  -0.04  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.65  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.7  0.00  0.00  0.00  -0.05  -0.1  0.00  0.00  -0.19  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.14  0.00  0.00  0.00  -0.14  0.00  -0.11  0.00  0.67  0.00  0.00  0.00  0.00  0.00  -0.05  0.00  0.00  -0.13  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.01  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.05  0.00  0.00  0.00  0.35  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  -0.11  0.00  -0.1  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  -0.05  0.00  -0.14  0.00  0.00  0.00  0.69  0.00  0.00  0.00  0.00  0.00  -0.14  0.00  -0.05  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.19  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.72  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  -0.14  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.66  -0.11  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  -0.1  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  -0.14  0.00  0.00  -0.09  0.00  0.00  0.66  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  0.00  -0.12  0.00  0.00  0.00  -0.15  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  -0.14  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.36  0.00  0.00  0.00  -0.05  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  -0.13  0.00  0.00  0.00  0.68  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  -0.05  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  -0.05  0.00  0.00  0.00  0.7  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.65  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.15  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  -0.1  0.00  0.00  0.00  0.66  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  0.00  0.00  0.00  -0.14  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.39  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  -0.13  0.00  0.00  0.00  0.69  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.05  0.00  0.00  0.00  0.00  -0.19  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  0.73  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.66  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  -0.14  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.66  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.68  0.00  0.00  0.00  0.00  0.00  -0.16  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.34  0.00  -0.06  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.1  -0.04  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.06  0.00  0.69  0.00  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.19  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.16  -0.1  0.00  0.00  0.00  0.00  0.72  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.21  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  -0.11  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.69  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.04  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.1  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.13  0.00  0.00  0.00  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.17  0.00  0.00  0.72  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.02  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  -0.06  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.02  0.00  0.00  0.00  0.00  -0.21  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.37  0.00  0.00  -0.06  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.07  0.00  0.00  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  -0.02  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.06  0.00  0.00  0.34  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  -0.17  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.73  0.00  -0.18  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  -0.01  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.1  0.00  -0.1  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.18  0.00  0.7  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.19  0.00  0.00  0.00  0.00  0.00  -0.05  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.66  0.00  0.00  -0.15  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.38  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.15  0.00  0.00  0.67  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.15  -0.07  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.65  0.00  0.00  0.00  0.00  -0.11  0.00  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.04  0.00  0.00  -0.06  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.34  0.00  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  -0.11  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.19  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.71  0.00  0.00  0.00  0.00  -0.19  -0.12  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.2  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  0.00  0.00  0.00  0.00  0.38  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  -0.11  0.00  0.00  0.00  0.65  0.00  0.00  0.00  -0.11  -0.11  0.00  -0.11  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.15  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  0.00  0.66  -0.09  0.00  0.00  -0.12  0.00  0.00  -0.12  -0.11  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.08  0.00  0.00  -0.07  0.00  0.00  0.00  0.00  -0.19  0.00  0.00  0.00  -0.09  0.69  0.00  0.00  0.00  -0.07  0.00  -0.21  0.00  -0.04  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.01  0.00  -0.05  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  -0.12  0.00  0.00  0.00  0.35  0.00  0.00  -0.08  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.11  -0.12  0.00  0.00  0.00  0.65  0.00  -0.11  0.00  -0.1  0.00  -0.13  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  0.00  0.00  0.00  0.00  -0.07  -0.08  0.00  0.00  0.34  0.00  0.00  0.00  -0.1  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.12  -0.21  0.00  0.00  0.00  0.00  0.00  0.72  -0.18  -0.15  0.00  -0.09  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.11  0.00  0.00  0.00  -0.1  0.00  0.00  -0.18  0.69  0.00  -0.1  -0.06  -0.18  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.04  0.00  0.00  0.00  -0.1  0.00  -0.15  0.00  0.35  0.00  -0.08  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  -0.09  -0.06  -0.08  0.00  0.34  -0.04  -0.1  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  
+0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  1.00  
 
 F: 
-50.00  50.00  0.00  0.00  50.00  -1.9  -3.8  0.00  -1.9  
+50.00  50.00  0.00  0.00  50.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  50.00  10.00  10.00  0.00  0.00  10.00  0.00  0.00  0.00  0.00  0.00  0.00  10.00  0.00  0.00  0.00  10.00  0.00  0.00  10.00  0.00  0.00  0.00  0.00  0.00  10.00  0.00  0.00  10.00  0.00  0.00  0.00  10.00  0.00  10.00  10.00  
 
 Solving using linal Householder solver (gsl_linalg_HH_solve)...
 Temperature disribution: 
-50.00  50.00  30.00  30.00  50.00  10.00  10.00  30.00  10.00  
+50.00  50.00  46.00  44.00  49.99  42.00  44.64  41.17  49.99  38.00  37.71  41.17  45.39  37.71  50.00  34.00  41.17  34.24  37.71  45.4  34.24  30.78  50.00  30.00  41.17  37.71  30.78  34.24  45.43  30.78  37.71  27.1  41.17  34.24  50.00  26.00  27.32  30.78  45.58  23.85  27.32  37.71  34.24  23.85  41.5  30.78  50.00  22.00  23.85  27.32  45.47  20.66  34.24  37.71  23.85  30.78  20.39  41.35  27.32  50.00  18.00  20.39  23.85  45.48  16.92  34.24  30.78  16.92  37.71  27.32  20.39  16.92  23.85  41.52  50.00  14.00  16.92  13.55  20.39  44.9  30.78  34.24  27.32  13.46  37.71  23.85  16.92  13.46  20.39  49.99  10.00  9.99  46.00  13.46  10.00  42.00  30.78  16.92  27.1  23.85  38.00  10.00  20.39  13.46  34.00  9.99  16.92  23.85  10.00  30.00  13.46  16.92  20.28  26.00  9.99  13.46  22.00  9.99  16.92  13.55  18.00  9.99  14.00  10.00  10.00  
 
 Estimating Flux Heat vectors...
 Flux X: 
-3.79  3.8  3.8  3.8  3.79  3.8  3.8  3.8  3.79  
+3.79  3.8  3.79  3.79  3.79  3.79  3.79  3.79  3.79  3.79  3.79  3.79  3.8  3.79  3.8  3.79  3.79  3.79  3.79  3.8  3.79  3.79  3.8  3.79  3.79  3.79  3.79  3.79  3.8  3.79  3.79  3.8  3.79  3.79  3.8  3.8  3.79  3.79  3.8  3.8  3.79  3.79  3.79  3.8  3.79  3.8  3.8  3.8  3.8  3.8  3.8  3.8  3.79  3.79  3.8  3.8  3.8  3.79  3.8  3.79  3.8  3.8  3.8  3.79  3.8  3.79  3.8  3.8  3.8  3.8  3.8  3.8  3.8  3.8  3.79  3.8  3.8  3.8  3.8  3.8  3.79  3.79  3.8  3.8  3.8  3.8  3.8  3.8  3.8  3.79  3.8  3.8  3.79  3.8  3.8  3.8  3.79  3.8  3.79  3.8  3.79  3.8  3.8  3.8  3.79  3.8  3.8  3.79  3.8  3.79  3.8  3.8  3.79  3.79  3.8  3.8  3.79  3.8  3.8  3.8  3.79  3.8  3.8  3.8  3.8  
 
 Flux Y: 
--3.8  -0.01  -0.01  -0.01  3.79  3.8  -0.01  -0.01  -3.8  
+3.79  1.18  -0.68  1.18  0.00  0.81  -0.24  11.01  -3.58  0.27  -4.23  -7.33  -5.65  0.00  -4.47  -0.22  -3.86  -0.06  0.00  -5.45  0.00  -0.39  -4.53  -0.75  -3.79  -0.01  -16.31  0.00  -5.44  0.00  -0.01  -1.08  -3.52  -0.01  -4.95  -1.11  -0.07  0.00  -5.87  0.12  0.00  -14.91  -0.01  0.09  -10.61  -0.01  -5.16  1.34  0.00  -0.01  -6.51  1.3  -0.01  -8.72  0.00  -0.01  0.08  -12.13  -0.01  -5.17  1.01  0.00  -0.01  -7.42  0.97  0.00  0.00  0.71  -6.18  0.00  0.00  0.00  -0.01  -20.17  -2.00  0.44  0.00  0.43  0.00  2.45  16.29  0.05  0.06  0.02  0.32  0.00  0.00  0.00  -0.01  -3.8  -3.81  3.93  1.13  0.00  26.64  -0.27  0.38  0.00  1.07  -8.85  -0.28  0.00  0.02  0.00  0.21  -0.01  -0.01  -0.6  0.00  0.74  0.00  9.25  0.19  1.1  0.00  -0.03  0.38  0.00  1.23  -0.44  0.2  -26.65  -0.45  -3.94  3.8  
 
-Saving result: /Users/blas/tmp/temp2d/test_flux.gid/test_flux.post.res
+Saving result: /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_flux.gid/test_flux.post.res
