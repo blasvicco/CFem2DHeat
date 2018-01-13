@@ -31,7 +31,7 @@ The module called [CFem2DHeat](https://github.com/blasvicco/CFem2DHeat/tree/mast
 ## What am I reading?
 In this document I will explain in detail about the implementation of the CFem2DHeat Module from a Software Engineer perspective.
 
-I will try to avoid entering in the deep universe of Physics and Geometrical Math that are involved in the FEM, but I will highly recommend you to read some of the vast bibliography you can find online.
+I will try to avoid entering in the deep universe of Physics and Geometrical Math that are involved in the FEM, but I will highly recommend to read some of the vast bibliography you can find online.
 This methodology can be traced back to the early 1940s, so many research and works were made in this field.
 
 ## Exploring the code
@@ -106,7 +106,7 @@ If you want to improve the solver velocity in the GID application you can modify
 Please refer to the next [link](http://www-opale.inrialpes.fr/Aerochina/info/en/html-version/gid_16.html) section "Executing an external program" for further information.
 
 ### Numerical process
-First we need to understand what we are modeling here. The form of the equations system for 2D linear steady state field problems can be given by the following general form of the Helmholtz equation:
+We need to understand first what we are modeling here. The form of the equations system for 2D linear steady state field problems can be given by the following general form of the Helmholtz equation:
 
 ![picture](http://what-when-how.com/wp-content/uploads/2012/06/tmp5896281.png)
 
@@ -216,7 +216,7 @@ gsl_matrix * TTriangle::getKm(long double convectivity) {
 }
 ```
 
-This method looks a little bit more complex than the one before but lets give a close look. First we need to check if the element has a convective condition in one of its edges.
+This method seems more complex than the one before so lets give a closer look. First, we need to check if the element has a convective condition in one of its edges.
 
 If there is not condition then no even one loop will be perform in the `for (it = conditions.begin(); it != conditions.end(); it++)` and of course the `if (i != -1 && j != -1)` will be false.
 
