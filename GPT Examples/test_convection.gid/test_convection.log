@@ -1,5 +1,5 @@
 Loading problem solver...
-Reading input file: /Users/blas/tmp/temp2d/test_convection.gid/test_convection.dat
+Reading input file: /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_convection.gid/test_convection.dat
 
 Problem dimension:
 Number of nodes (26)
@@ -66,9 +66,9 @@ Material: Id 3 Conductivity 0.01 Convectivity 1e-06
 Assembling matrixs...
 Processing element 1
 Element K: 
-0.04  -0.03  -0.02  
+0.04  -0.03  -0.03  
 -0.03  0.02  0.00  
--0.02  0.00  0.02  
+-0.03  0.00  0.02  
 
 Element Km: 
 0.00  0.00  0.00  
@@ -588,4 +588,4 @@ Flux X:
 Flux Y: 
 -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  -0.02  
 
-Saving result: /Users/blas/tmp/temp2d/test_convection.gid/test_convection.post.res
+Saving result: /Users/blas/Desktop/CFem2DHeat/GPT Examples/test_convection.gid/test_convection.post.res
