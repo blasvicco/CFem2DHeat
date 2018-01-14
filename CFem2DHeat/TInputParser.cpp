@@ -48,7 +48,7 @@ void TInputParser::readFile(string fileName) {
     currentFileSection = TInputParser::FILE_BEGINNING;
     status = TInputParser::FAIL;
     if (inFile.is_open()) {
-        fileSections["Geometry Unity:"]             = TInputParser::FILE_UNIT;
+        fileSections["Geometry Unit:"]              = TInputParser::FILE_UNIT;
         fileSections["Number of Elements & Nodes:"] = TInputParser::FILE_AMOUNTS;
         fileSections["Point conditions"]            = TInputParser::FILE_CONDITIONS;
         fileSections["Line conditions"]             = TInputParser::FILE_CONDITIONS;
