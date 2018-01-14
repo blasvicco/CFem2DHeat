@@ -27,7 +27,7 @@ string TSString::ftos(long double value) {
     string s = to_string(floor(value * 100) / 100);
     vector<string> vs = split(s, ".");
     vs[1].erase(vs[1].find_last_not_of('0') + 1, std::string::npos);
-    return vs[0] + "." + (vs[1].empty() ? "00" : vs[1]);
+    return (value > 0 ? "+" : (value == 0 ? " " : "")) + vs[0] + "." + (vs[1].empty() ? "00" : vs[1]);
 }
 
 vector<string> TSString::split(string exp, string token) {
