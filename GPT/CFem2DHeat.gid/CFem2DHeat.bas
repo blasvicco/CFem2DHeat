@@ -1,7 +1,7 @@
 ==================================================================
                         General Data File
 ==================================================================
-Geometry Unity:
+Geometry Unit:
 *GenData(1)
 
 Number of Elements & Nodes:
