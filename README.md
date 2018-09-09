@@ -4,7 +4,7 @@ This project is a GID Problem Type (GPT) distributed under GPL V3.
 
 I developed this project with a didactic purpose to help anyone in the engineer field to understand the basis of the Finite Element Method (FEM) and its application.
 
-A simple physic model of steady-state heat transfer was chosen to keep the code easy to follow and legible for software engineers that are taken their first steps in Numerical Processing.
+A simple physic model of steady-state heat transfer was chosen to keep the code easy to follow and legible for software engineers that are taking their first steps in Numerical Processing.
 
 In any case, a minimum of knowledge in the involved fields are required. I will assume that you know some of Thermodynamic Principles, Differential Equations, the basis of Numerical Processing, Continuous Mechanic and stuff like that.
 
